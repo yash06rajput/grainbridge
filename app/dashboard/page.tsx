@@ -335,12 +335,6 @@ const [showModal, setShowModal] = useState(false);
     </main>
   );
 }
-import { Suspense } from "react";
-
 export default function DashboardPage() {
-  return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <DashboardContent />
-    </Suspense>
-  );
+  return <DashboardContent />;
 }
