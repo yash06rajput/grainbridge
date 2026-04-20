@@ -2,7 +2,7 @@
 export const dynamic = "force-dynamic";
 
 import { useEffect, useMemo, useState } from "react";
-import { useSearchParams } from "next/navigation";
+
 
 
 type PriceResult = {
@@ -80,7 +80,9 @@ function formatCurrency(value: number): string {
 }
 
 function DashboardContent() {
-  const searchParams = useSearchParams();
+  const searchParams = new URLSearchParams(
+  typeof window !== "undefined" ? window.location.search : ""
+);
   const [selectedBuyer, setSelectedBuyer] = useState<any>(null);
 const [showModal, setShowModal] = useState(false);
   const [showBuyers, setShowBuyers] = useState(false);
