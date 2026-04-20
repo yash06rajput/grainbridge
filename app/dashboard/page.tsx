@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
+
 type PriceResult = {
   mandiPrice: number;
   premiumPrice: number;
@@ -77,7 +78,7 @@ function formatCurrency(value: number): string {
   }).format(value);
 }
 
-export default function DashboardPage() {
+function DashboardContent() {
   const searchParams = useSearchParams();
   const [selectedBuyer, setSelectedBuyer] = useState<any>(null);
 const [showModal, setShowModal] = useState(false);
@@ -329,5 +330,14 @@ const [showModal, setShowModal] = useState(false);
   </div>
 )}
     </main>
+  );
+}
+import { Suspense } from "react";
+
+export default function DashboardPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <DashboardContent />
+    </Suspense>
   );
 }
