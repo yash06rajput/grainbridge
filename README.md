@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌾 GrainBridge
 
-## Getting Started
+**Direct marketplace connecting farmers with premium buyers with a focus on transparency and better pricing.**
 
-First, run the development server:
+GrainBridge aims to eliminate middlemen in agricultural supply chains by enabling farmers to directly connect with buyers, ensuring fair pricing, transparency, and better profits.
+
+---
+
+## 🚀 Features
+
+* 🔗 **Direct Marketplace** – Farmers can list produce and connect directly with buyers
+* 📦 **Product Listings & Discovery** – Browse and explore available grains and produce
+* 🌐 **Responsive Web App** – Clean UI built with Next.js
+* 🌐 **Modern Web Interface** – Built using Next.js for fast and responsive UI
+* ⚡ **Scalable Architecture** – Designed to evolve into a full SaaS platform
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* Tailwind CSS
+
+### Backend (Planned / Extendable)
+
+* Node.js / Express or Spring Boot
+* REST APIs
+
+---
+
+## 📁 Project Structure
+
+```
+app/            # Main application logic
+public/         # Static assets
+README.md       # Project documentation
+```
+
+---
+
+## 💡 Problem Statement
+
+Farmers often face:
+
+* Lack of price transparency
+* Dependence on middlemen
+* Limited access to premium buyers
+
+GrainBridge solves this by providing a **direct, tech-driven marketplace** that connects farmers and buyers without intermediaries.
+
+---
+
+## 🎯 Vision
+
+To build India’s most trusted AI-powered agricultural marketplace that ensures:
+
+* Fair pricing for farmers
+* Quality sourcing for buyers
+* Transparent and efficient supply chains
+
+---
+
+## 🔮 Future Scope
+
+* 📦 Logistics integration
+* 💳 Payment gateway
+* 📱 Mobile application
+* 📈 Advanced analytics dashboard
+* 🧠 Data-driven pricing and analytics (planned)
+
+---
+
+## 🧪 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yash06rajput/grainbridge.git
+cd grainbridge
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contributing
 
-## Learn More
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📬 Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Yash Rajput**
 
-## Deploy on Vercel
+* Email: [yashrajput.mait@gmail.com](mailto:yashrajput.mait@gmail.com)
+* LinkedIn: [https://linkedin.com/in/yashrajput06](https://linkedin.com/in/yashrajput06)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⭐ Show your support
+
+If you like this project, consider giving it a ⭐ on GitHub!
