@@ -1,118 +1,241 @@
 # 🌾 GrainBridge
 
-**Direct marketplace connecting farmers with premium buyers with a focus on transparency and better pricing.**
-
-GrainBridge aims to eliminate middlemen in agricultural supply chains by enabling farmers to directly connect with buyers, ensuring fair pricing, transparency, and better profits.
+AI-powered crop pricing and buyer discovery platform designed to help farmers maximize profits by connecting them with premium buyers and providing market intelligence.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-* 🔗 **Direct Marketplace** – Farmers can list produce and connect directly with buyers
-* 📦 **Product Listings & Discovery** – Browse and explore available grains and produce
-* 🌐 **Responsive Web App** – Clean UI built with Next.js
-* 🌐 **Modern Web Interface** – Built using Next.js for fast and responsive UI
-* ⚡ **Scalable Architecture** – Designed to evolve into a full SaaS platform
+**Live Application:** https://grainbridge-seven.vercel.app
+
+**GitHub Repository:** https://github.com/yash06rajput/grainbridge
 
 ---
 
-## 🛠️ Tech Stack
+# 📖 Overview
 
-### Frontend
+GrainBridge is an agricultural marketplace MVP that helps farmers make better selling decisions through market insights, price comparisons, and direct buyer recommendations.
 
-* Next.js
-* React
-* Tailwind CSS
-
-### Backend (Planned / Extendable)
-
-* Node.js / Express or Spring Boot
-* REST APIs
+Instead of relying solely on local mandi prices, farmers can compare premium buyer offers, estimate additional profits, and connect directly with buyers.
 
 ---
 
-## 📁 Project Structure
-
-```
-app/            # Main application logic
-public/         # Static assets
-README.md       # Project documentation
-```
-
----
-
-## 💡 Problem Statement
+# ❗ Problem Statement
 
 Farmers often face:
 
-* Lack of price transparency
-* Dependence on middlemen
-* Limited access to premium buyers
+- Lack of pricing transparency
+- Dependence on intermediaries
+- Limited access to premium buyers
+- Difficulty identifying the most profitable selling channel
 
-GrainBridge solves this by providing a **direct, tech-driven marketplace** that connects farmers and buyers without intermediaries.
-
----
-
-## 🎯 Vision
-
-To build India’s most trusted AI-powered agricultural marketplace that ensures:
-
-* Fair pricing for farmers
-* Quality sourcing for buyers
-* Transparent and efficient supply chains
+As a result, they may sell produce below its actual market value.
 
 ---
 
-## 🔮 Future Scope
+# 💡 Solution
 
-* 📦 Logistics integration
-* 💳 Payment gateway
-* 📱 Mobile application
-* 📈 Advanced analytics dashboard
-* 🧠 Data-driven pricing and analytics (planned)
+GrainBridge provides:
+
+✅ AI-assisted pricing insights
+
+✅ Mandi vs Premium Buyer comparison
+
+✅ Revenue and profit estimation
+
+✅ Buyer recommendations
+
+✅ Direct lead generation
+
+✅ Farmer-friendly onboarding workflow
 
 ---
 
-## 🧪 Getting Started
+# 🔄 User Flow
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/yash06rajput/grainbridge.git
-cd grainbridge
+```text
+Landing Page
+     ↓
+Farmer Intake Form
+     ↓
+Crop Selection
+     ↓
+Quantity & Location Input
+     ↓
+Market Analysis Dashboard
+     ↓
+Price Comparison
+     ↓
+Buyer Recommendations
+     ↓
+Lead Generation
 ```
 
-### 2. Install dependencies
+---
 
-```bash
-npm install
-```
+# 📸 Screenshots
 
-### 3. Run the development server
+## 1️⃣ Landing Page
 
-```bash
-npm run dev
-```
+![Landing Page](docs/screenshots/01-landing-page.png)
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+The entry point of GrainBridge introducing the platform's mission and value proposition.
 
 ---
 
-## 🤝 Contributing
+## 2️⃣ Farmer Intake Form
 
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+![Farmer Intake Form](docs/screenshots/02-farmer-intake-form.png)
+
+Farmers provide:
+
+- Crop Type
+- Quantity
+- State / Location
+
+This information is used to generate market insights and buyer recommendations.
 
 ---
 
-## 📬 Contact
+## 3️⃣ Market Pricing Dashboard
+
+![Market Insights Dashboard](docs/screenshots/03-market-insights-dashboard.png)
+
+The dashboard provides:
+
+- Total Revenue Estimation
+- Mandi Price Analysis
+- Premium Buyer Pricing
+- Additional Profit Opportunities
+
+Helping farmers make data-driven selling decisions.
+
+---
+
+## 4️⃣ Buyer Recommendation Engine
+
+![Buyer Recommendations](docs/screenshots/04-buyer-recommendations.png)
+
+GrainBridge identifies potential buyers based on:
+
+- Offered Price
+- Market Demand
+- Potential Profit
+
+This enables farmers to discover better selling opportunities.
+
+---
+
+## 5️⃣ Lead Generation Workflow
+
+![Lead Generation Flow](docs/screenshots/05-lead-generation-flow.png)
+
+Farmers can directly connect with buyers and receive:
+
+- Contact Information
+- WhatsApp Availability
+- Estimated Response Time
+- Pickup Availability
+
+---
+
+# ✨ Features
+
+### 🌾 Crop Intelligence
+
+Generate crop-specific market insights based on location and quantity.
+
+### 📊 Price Comparison
+
+Compare:
+
+- Traditional Mandi Rates
+- Premium Buyer Offers
+
+### 💰 Profit Estimation
+
+Calculate:
+
+- Expected Revenue
+- Additional Earnings
+- Best Selling Option
+
+### 🤝 Buyer Discovery
+
+Find high-value buyers offering competitive prices.
+
+### 📞 Direct Lead Generation
+
+Connect farmers directly with potential buyers.
+
+### ⚡ Responsive Interface
+
+Fast and modern UI built with Next.js and Tailwind CSS.
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+## Deployment
+
+- Vercel
+
+## Planned Backend
+
+- Node.js / Express
+- PostgreSQL
+- Prisma ORM
+- AI-powered recommendation services
+
+---
+
+# 🎯 Future Roadmap
+
+## Phase 1 (Current MVP)
+
+- Farmer onboarding
+- Market insights
+- Buyer recommendations
+- Lead generation workflow
+
+## Phase 2
+
+- Authentication
+- Database integration
+- Real buyer onboarding
+- Dynamic pricing engine
+
+## Phase 3
+
+- AI demand forecasting
+- Logistics integration
+- Payment gateway
+- Mobile application
+
+---
+
+# 🌍 Vision
+
+To build India's most trusted AI-powered agricultural marketplace where farmers can make informed selling decisions, discover premium buyers, and increase profitability through technology.
+
+---
+
+# 👨‍💻 Author
 
 **Yash Rajput**
 
-* Email: [yashrajput.mait@gmail.com](mailto:yashrajput.mait@gmail.com)
-* LinkedIn: [https://linkedin.com/in/yashrajput06](https://linkedin.com/in/yashrajput06)
+- GitHub: https://github.com/yash06rajput
+- LinkedIn: https://linkedin.com/in/yashrajput06
 
 ---
 
-## ⭐ Show your support
+## ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub!
+If you like this project, consider giving it a star on GitHub.
